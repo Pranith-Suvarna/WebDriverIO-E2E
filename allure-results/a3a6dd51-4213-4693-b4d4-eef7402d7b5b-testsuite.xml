@@ -1,0 +1,46 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1644654516089' stop='1644654538941'>
+    <name>Ecommerce Application</name>
+    <title>Ecommerce Application</title>
+    <test-cases>
+        <test-case start='1644654516090' status='broken' stop='1644654538940'>
+            <name>End to End Test</name>
+            <title>End to End Test</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.82'/>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.82'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='77037c95-58db-4427-b0ad-2c89ef2038e5-attachment.png' type='image/png' size='561949'/>
+                <attachment title='Screenshot' source='538ad447-148d-4f9b-aea2-ece77240af1e-attachment.png' type='image/png' size='58057'/>
+            </attachments>
+            <failure>
+                <message>element ("*=Checkout") still not existing after 10000ms</message>
+                <stack-trace>Error: element ("*=Checkout") still not existing after 10000ms
+                    at C:\Users\prani\Projects\webdriverioproject\node_modules\@wdio\runner\node_modules\webdriverio\build\commands\browser\waitUntil.js:66:23
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\prani\Projects\webdriverioproject\node_modules\@wdio\runner\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at async Element.runCommandWithHooks (C:\Users\prani\Projects\webdriverioproject\node_modules\@wdio\sync\build\wrapCommand.js:105:25)
+                    at Element.runCommandWithHooks (C:\Users\prani\Projects\webdriverioproject\node_modules\@wdio\sync\build\wrapCommand.js:100:24)
+                    at Element.wrapCommandFn (C:\Users\prani\Projects\webdriverioproject\node_modules\@wdio\sync\build\wrapCommand.js:67:44)
+                    at Element.&lt;anonymous> (C:\Users\prani\Projects\webdriverioproject\node_modules\@wdio\runner\node_modules\@wdio\utils\build\shim.js:276:24)
+                    at Element.elementErrorHandlerCallback (C:\Users\prani\Projects\webdriverioproject\node_modules\@wdio\runner\node_modules\webdriverio\build\middlewares.js:48:12)
+                    at Element.waitForExist (C:\Users\prani\Projects\webdriverioproject\node_modules\@wdio\runner\node_modules\webdriverio\build\commands\element\waitForExist.js:47:17)
+                    at Element.wrapCommandFn (C:\Users\prani\Projects\webdriverioproject\node_modules\@wdio\sync\build\wrapCommand.js:60:23)
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\prani\Projects\webdriverioproject\node_modules\@wdio\runner\node_modules\webdriverio\build\middlewares.js:24:65)
+                    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+                    at Context.&lt;anonymous> (C:\Users\prani\Projects\webdriverioproject\test\specs\poTest.js:26:29)
+                    at Context.executeSync (C:\Users\prani\Projects\webdriverioproject\node_modules\@wdio\sync\build\index.js:38:22)
+                    at C:\Users\prani\Projects\webdriverioproject\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

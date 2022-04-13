@@ -1,0 +1,354 @@
+{
+  "uid" : "d79f894d7d788709",
+  "name" : "End to End Test",
+  "fullName" : "Ecommerce Application.End to End Test",
+  "historyId" : "82eadf254be95fa94c2450607f6d8824",
+  "time" : {
+    "start" : 1644701726917,
+    "stop" : 1644701727869,
+    "duration" : 952
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "unknown error: net::ERR_NAME_NOT_RESOLVED\n                  (Session info: chrome=98.0.4758.82)",
+  "statusTrace" : "Backtrace:\n                \tOrdinal0 [0x00F7FDC3+2555331]\n                \tOrdinal0 [0x00F177F1+2127857]\n                \tOrdinal0 [0x00E12E08+1060360]\n                \tOrdinal0 [0x00E0F9B1+1046961]\n                \tOrdinal0 [0x00E059BD+1006013]\n                \tOrdinal0 [0x00E065D0+1009104]\n                \tOrdinal0 [0x00E05C1E+1006622]\n                \tOrdinal0 [0x00E0527D+1004157]\n                \tOrdinal0 [0x00E043FA+1000442]\n                \tOrdinal0 [0x00E046B6+1001142]\n                \tOrdinal0 [0x00E143FA+1065978]\n                \tOrdinal0 [0x00E67BAD+1407917]\n                \tOrdinal0 [0x00E57B0C+1342220]\n                \tOrdinal0 [0x00E675FA+1406458]\n                \tOrdinal0 [0x00E57976+1341814]\n                \tOrdinal0 [0x00E336B6+1193654]\n                \tOrdinal0 [0x00E34546+1197382]\n                \tGetHandleVerifier [0x01119622+1619522]\n                \tGetHandleVerifier [0x011C882C+2336844]\n                \tGetHandleVerifier [0x010123E1+541697]\n                \tGetHandleVerifier [0x01011443+537699]\n                \tOrdinal0 [0x00F1D18E+2150798]\n                \tOrdinal0 [0x00F21518+2168088]\n                \tOrdinal0 [0x00F21660+2168416]\n                \tOrdinal0 [0x00F2B330+2208560]\n                \tBaseThreadInitThunk [0x756F6739+25]\n                \tRtlGetFullPathName_UEx [0x77948AFF+1215]\n                \tRtlGetFullPathName_UEx [0x77948ACD+1165]\n                    at Browser.runCommandWithHooks (C:\\Users\\prani\\Projects\\webdriverioproject\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n                    at Browser.wrapCommandFn (C:\\Users\\prani\\Projects\\webdriverioproject\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n                    at Browser.<anonymous> (C:\\Users\\prani\\Projects\\webdriverioproject\\node_modules\\@wdio\\runner\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n                    at Context.<anonymous> (C:\\Users\\prani\\Projects\\webdriverioproject\\test\\specs\\poTest.js:21:13)\n                    at Context.executeSync (C:\\Users\\prani\\Projects\\webdriverioproject\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n                    at C:\\Users\\prani\\Projects\\webdriverioproject\\node_modules\\@wdio\\sync\\build\\index.js:69:73",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 14,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "unknown error: net::ERR_NAME_NOT_RESOLVED\n                  (Session info: chrome=98.0.4758.82)",
+    "statusTrace" : "Backtrace:\n                \tOrdinal0 [0x00F7FDC3+2555331]\n                \tOrdinal0 [0x00F177F1+2127857]\n                \tOrdinal0 [0x00E12E08+1060360]\n                \tOrdinal0 [0x00E0F9B1+1046961]\n                \tOrdinal0 [0x00E059BD+1006013]\n                \tOrdinal0 [0x00E065D0+1009104]\n                \tOrdinal0 [0x00E05C1E+1006622]\n                \tOrdinal0 [0x00E0527D+1004157]\n                \tOrdinal0 [0x00E043FA+1000442]\n                \tOrdinal0 [0x00E046B6+1001142]\n                \tOrdinal0 [0x00E143FA+1065978]\n                \tOrdinal0 [0x00E67BAD+1407917]\n                \tOrdinal0 [0x00E57B0C+1342220]\n                \tOrdinal0 [0x00E675FA+1406458]\n                \tOrdinal0 [0x00E57976+1341814]\n                \tOrdinal0 [0x00E336B6+1193654]\n                \tOrdinal0 [0x00E34546+1197382]\n                \tGetHandleVerifier [0x01119622+1619522]\n                \tGetHandleVerifier [0x011C882C+2336844]\n                \tGetHandleVerifier [0x010123E1+541697]\n                \tGetHandleVerifier [0x01011443+537699]\n                \tOrdinal0 [0x00F1D18E+2150798]\n                \tOrdinal0 [0x00F21518+2168088]\n                \tOrdinal0 [0x00F21660+2168416]\n                \tOrdinal0 [0x00F2B330+2208560]\n                \tBaseThreadInitThunk [0x756F6739+25]\n                \tRtlGetFullPathName_UEx [0x77948AFF+1215]\n                \tRtlGetFullPathName_UEx [0x77948ACD+1165]\n                    at Browser.runCommandWithHooks (C:\\Users\\prani\\Projects\\webdriverioproject\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n                    at Browser.wrapCommandFn (C:\\Users\\prani\\Projects\\webdriverioproject\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n                    at Browser.<anonymous> (C:\\Users\\prani\\Projects\\webdriverioproject\\node_modules\\@wdio\\runner\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n                    at Context.<anonymous> (C:\\Users\\prani\\Projects\\webdriverioproject\\test\\specs\\poTest.js:21:13)\n                    at Context.executeSync (C:\\Users\\prani\\Projects\\webdriverioproject\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n                    at C:\\Users\\prani\\Projects\\webdriverioproject\\node_modules\\@wdio\\sync\\build\\index.js:69:73",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4fcf11341e7d3cc2",
+      "name" : "Screenshot",
+      "source" : "4fcf11341e7d3cc2.png",
+      "type" : "image/png",
+      "size" : 17942
+    }, {
+      "uid" : "4390c3b910dfc85f",
+      "name" : "Screenshot",
+      "source" : "4390c3b910dfc85f.png",
+      "type" : "image/png",
+      "size" : 17942
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 2,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Ecommerce Application"
+  }, {
+    "name" : "testClass",
+    "value" : "Ecommerce Application"
+  }, {
+    "name" : "testMethod",
+    "value" : "End to End Test"
+  }, {
+    "name" : "package",
+    "value" : "Ecommerce Application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-98.0.4758.82"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "64f6fc391478683d",
+      "status" : "broken",
+      "statusDetails" : "unknown error: net::ERR_NAME_NOT_RESOLVED\n                  (Session info: chrome=98.0.4758.82)",
+      "time" : {
+        "start" : 1644701635826,
+        "stop" : 1644701636791,
+        "duration" : 965
+      }
+    }, {
+      "uid" : "d3adfa5377557cb6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644694579040,
+        "stop" : 1644694597738,
+        "duration" : 18698
+      }
+    }, {
+      "uid" : "7736ea077497069e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644693879728,
+        "stop" : 1644693898465,
+        "duration" : 18737
+      }
+    }, {
+      "uid" : "6d66c3f7ffd02e1e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644693428203,
+        "stop" : 1644693447364,
+        "duration" : 19161
+      }
+    }, {
+      "uid" : "42fc05a6f7ae4d6b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644691084209,
+        "stop" : 1644691103109,
+        "duration" : 18900
+      }
+    }, {
+      "uid" : "f4b6a1a0b65a80ba",
+      "status" : "broken",
+      "statusDetails" : "unknown error: net::ERR_NAME_NOT_RESOLVED\n                  (Session info: chrome=98.0.4758.82)",
+      "time" : {
+        "start" : 1644690890653,
+        "stop" : 1644690892010,
+        "duration" : 1357
+      }
+    }, {
+      "uid" : "67e04b9f1d3a36c8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644690795585,
+        "stop" : 1644690814789,
+        "duration" : 19204
+      }
+    }, {
+      "uid" : "f3a4e47d34b75614",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644690765079,
+        "stop" : 1644690787579,
+        "duration" : 22500
+      }
+    }, {
+      "uid" : "26c28b10b26239e6",
+      "status" : "broken",
+      "statusDetails" : "unknown error: net::ERR_NAME_NOT_RESOLVED\n                  (Session info: chrome=98.0.4758.82)",
+      "time" : {
+        "start" : 1644659766656,
+        "stop" : 1644659768100,
+        "duration" : 1444
+      }
+    }, {
+      "uid" : "4f0e918f69e7af65",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644659553942,
+        "stop" : 1644659572260,
+        "duration" : 18318
+      }
+    }, {
+      "uid" : "651ffe4c128e4869",
+      "status" : "broken",
+      "statusDetails" : "element (\".lds-ellipsis\") still existing after 5000ms",
+      "time" : {
+        "start" : 1644658871550,
+        "stop" : 1644658891076,
+        "duration" : 19526
+      }
+    }, {
+      "uid" : "a8d0a3e7dbcc9729",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644658801077,
+        "stop" : 1644658819291,
+        "duration" : 18214
+      }
+    }, {
+      "uid" : "aaa09725e1a0b353",
+      "status" : "broken",
+      "statusDetails" : "element (\"*=Checkout\") still not existing after 10000ms",
+      "time" : {
+        "start" : 1644657856147,
+        "stop" : 1644657877669,
+        "duration" : 21522
+      }
+    }, {
+      "uid" : "3a336e81c9096220",
+      "status" : "broken",
+      "statusDetails" : "element (\"*=Checkout\") still not existing after 10000ms",
+      "time" : {
+        "start" : 1644654516090,
+        "stop" : 1644654538940,
+        "duration" : 22850
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 8,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 15
+      },
+      "items" : [ {
+        "uid" : "ac27fd8a4d3aa0a3",
+        "reportUrl" : "http://localhost:9090/job/Webdriver%20IO/20/allure/#testresult/ac27fd8a4d3aa0a3",
+        "status" : "broken",
+        "statusDetails" : "unknown error: net::ERR_NAME_NOT_RESOLVED\n                  (Session info: chrome=98.0.4758.82)",
+        "time" : {
+          "start" : 1644701726917,
+          "stop" : 1644701727869,
+          "duration" : 952
+        }
+      }, {
+        "uid" : "bdaba472cfd87a5c",
+        "reportUrl" : "http://localhost:9090/job/Webdriver%20IO/19/allure/#testresult/bdaba472cfd87a5c",
+        "status" : "broken",
+        "statusDetails" : "unknown error: net::ERR_NAME_NOT_RESOLVED\n                  (Session info: chrome=98.0.4758.82)",
+        "time" : {
+          "start" : 1644701726917,
+          "stop" : 1644701727869,
+          "duration" : 952
+        }
+      }, {
+        "uid" : "4df39f575d5cdb49",
+        "reportUrl" : "http://localhost:9090/job/Webdriver%20IO/18/allure/#testresult/4df39f575d5cdb49",
+        "status" : "broken",
+        "statusDetails" : "unknown error: net::ERR_NAME_NOT_RESOLVED\n                  (Session info: chrome=98.0.4758.82)",
+        "time" : {
+          "start" : 1644701726917,
+          "stop" : 1644701727869,
+          "duration" : 952
+        }
+      }, {
+        "uid" : "5bcce23e82f7957d",
+        "reportUrl" : "http://localhost:9090/job/Webdriver%20IO/17/allure/#testresult/5bcce23e82f7957d",
+        "status" : "broken",
+        "statusDetails" : "unknown error: net::ERR_NAME_NOT_RESOLVED\n                  (Session info: chrome=98.0.4758.82)",
+        "time" : {
+          "start" : 1644701726917,
+          "stop" : 1644701727869,
+          "duration" : 952
+        }
+      }, {
+        "uid" : "b6de4f411151de4",
+        "reportUrl" : "http://localhost:9090/job/Webdriver%20IO/16/allure/#testresult/b6de4f411151de4",
+        "status" : "broken",
+        "statusDetails" : "unknown error: net::ERR_NAME_NOT_RESOLVED\n                  (Session info: chrome=98.0.4758.82)",
+        "time" : {
+          "start" : 1644701726917,
+          "stop" : 1644701727869,
+          "duration" : 952
+        }
+      }, {
+        "uid" : "5a69cea3d4285fe2",
+        "reportUrl" : "http://localhost:9090/job/Webdriver%20IO/15/allure/#testresult/5a69cea3d4285fe2",
+        "status" : "broken",
+        "statusDetails" : "unknown error: net::ERR_NAME_NOT_RESOLVED\n                  (Session info: chrome=98.0.4758.82)",
+        "time" : {
+          "start" : 1644701726917,
+          "stop" : 1644701727869,
+          "duration" : 952
+        }
+      }, {
+        "uid" : "576414febafba37d",
+        "reportUrl" : "http://localhost:8080/job/Webdriver%20IO/14/allure/#testresult/576414febafba37d",
+        "status" : "broken",
+        "statusDetails" : "unknown error: net::ERR_NAME_NOT_RESOLVED\n                  (Session info: chrome=98.0.4758.82)",
+        "time" : {
+          "start" : 1644701635826,
+          "stop" : 1644701636791,
+          "duration" : 965
+        }
+      }, {
+        "uid" : "cbfcc248637e3a7e",
+        "reportUrl" : "http://localhost:8080/job/Webdriver%20IO/13/allure/#testresult/cbfcc248637e3a7e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644694579040,
+          "stop" : 1644694597738,
+          "duration" : 18698
+        }
+      }, {
+        "uid" : "7a254c6c7b3206b2",
+        "reportUrl" : "http://localhost:8080/job/Webdriver%20IO/12/allure/#testresult/7a254c6c7b3206b2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644694579040,
+          "stop" : 1644694597738,
+          "duration" : 18698
+        }
+      }, {
+        "uid" : "b75073fbe1cb4014",
+        "reportUrl" : "http://localhost:8080/job/Webdriver%20IO/11/allure/#testresult/b75073fbe1cb4014",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644694579040,
+          "stop" : 1644694597738,
+          "duration" : 18698
+        }
+      }, {
+        "uid" : "f4a49ac70ff5bcc1",
+        "reportUrl" : "http://localhost:8080/job/Webdriver%20IO/10/allure/#testresult/f4a49ac70ff5bcc1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644694579040,
+          "stop" : 1644694597738,
+          "duration" : 18698
+        }
+      }, {
+        "uid" : "d695066bb19f1e77",
+        "reportUrl" : "http://localhost:8080/job/Webdriver%20IO/9/allure/#testresult/d695066bb19f1e77",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644694579040,
+          "stop" : 1644694597738,
+          "duration" : 18698
+        }
+      }, {
+        "uid" : "a0dcee7fa3c92aa5",
+        "reportUrl" : "http://localhost:8080/job/Webdriver%20IO/8/allure/#testresult/a0dcee7fa3c92aa5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644694579040,
+          "stop" : 1644694597738,
+          "duration" : 18698
+        }
+      }, {
+        "uid" : "2ed0778c3d0f53f8",
+        "reportUrl" : "http://localhost:8080/job/Webdriver%20IO/7/allure/#testresult/2ed0778c3d0f53f8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644693879728,
+          "stop" : 1644693898465,
+          "duration" : 18737
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d79f894d7d788709.json",
+  "parameterValues" : [ "chrome-98.0.4758.82" ]
+}

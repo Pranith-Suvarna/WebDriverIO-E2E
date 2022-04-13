@@ -1,0 +1,82 @@
+{
+  "uid" : "42fc05a6f7ae4d6b",
+  "name" : "End to End Test",
+  "fullName" : "Ecommerce Application.End to End Test",
+  "historyId" : "82eadf254be95fa94c2450607f6d8824",
+  "time" : {
+    "start" : 1644691084209,
+    "stop" : 1644691103109,
+    "duration" : 18900
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "bfe7df67d1a388d3",
+      "name" : "Screenshot",
+      "source" : "bfe7df67d1a388d3.png",
+      "type" : "image/png",
+      "size" : 25968
+    }, {
+      "uid" : "5d5e6bda46d4faba",
+      "name" : "Screenshot",
+      "source" : "5d5e6bda46d4faba.png",
+      "type" : "image/png",
+      "size" : 26098
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Ecommerce Application"
+  }, {
+    "name" : "testClass",
+    "value" : "Ecommerce Application"
+  }, {
+    "name" : "testMethod",
+    "value" : "End to End Test"
+  }, {
+    "name" : "package",
+    "value" : "Ecommerce Application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-98.0.4758.82"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "42fc05a6f7ae4d6b.json",
+  "parameterValues" : [ "chrome-98.0.4758.82" ]
+}

@@ -1,0 +1,86 @@
+{
+  "uid" : "64f6fc391478683d",
+  "name" : "End to End Test",
+  "fullName" : "Ecommerce Application.End to End Test",
+  "historyId" : "82eadf254be95fa94c2450607f6d8824",
+  "time" : {
+    "start" : 1644701635826,
+    "stop" : 1644701636791,
+    "duration" : 965
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "unknown error: net::ERR_NAME_NOT_RESOLVED\n                  (Session info: chrome=98.0.4758.82)",
+  "statusTrace" : "Backtrace:\n                \tOrdinal0 [0x00F7FDC3+2555331]\n                \tOrdinal0 [0x00F177F1+2127857]\n                \tOrdinal0 [0x00E12E08+1060360]\n                \tOrdinal0 [0x00E0F9B1+1046961]\n                \tOrdinal0 [0x00E059BD+1006013]\n                \tOrdinal0 [0x00E065D0+1009104]\n                \tOrdinal0 [0x00E05C1E+1006622]\n                \tOrdinal0 [0x00E0527D+1004157]\n                \tOrdinal0 [0x00E043FA+1000442]\n                \tOrdinal0 [0x00E046B6+1001142]\n                \tOrdinal0 [0x00E143FA+1065978]\n                \tOrdinal0 [0x00E67BAD+1407917]\n                \tOrdinal0 [0x00E57B0C+1342220]\n                \tOrdinal0 [0x00E675FA+1406458]\n                \tOrdinal0 [0x00E57976+1341814]\n                \tOrdinal0 [0x00E336B6+1193654]\n                \tOrdinal0 [0x00E34546+1197382]\n                \tGetHandleVerifier [0x01119622+1619522]\n                \tGetHandleVerifier [0x011C882C+2336844]\n                \tGetHandleVerifier [0x010123E1+541697]\n                \tGetHandleVerifier [0x01011443+537699]\n                \tOrdinal0 [0x00F1D18E+2150798]\n                \tOrdinal0 [0x00F21518+2168088]\n                \tOrdinal0 [0x00F21660+2168416]\n                \tOrdinal0 [0x00F2B330+2208560]\n                \tBaseThreadInitThunk [0x756F6739+25]\n                \tRtlGetFullPathName_UEx [0x77948AFF+1215]\n                \tRtlGetFullPathName_UEx [0x77948ACD+1165]\n                    at Browser.runCommandWithHooks (C:\\Users\\prani\\Projects\\webdriverioproject\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n                    at Browser.wrapCommandFn (C:\\Users\\prani\\Projects\\webdriverioproject\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n                    at Browser.<anonymous> (C:\\Users\\prani\\Projects\\webdriverioproject\\node_modules\\@wdio\\runner\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n                    at Context.<anonymous> (C:\\Users\\prani\\Projects\\webdriverioproject\\test\\specs\\poTest.js:21:13)\n                    at Context.executeSync (C:\\Users\\prani\\Projects\\webdriverioproject\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n                    at C:\\Users\\prani\\Projects\\webdriverioproject\\node_modules\\@wdio\\sync\\build\\index.js:69:73",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "unknown error: net::ERR_NAME_NOT_RESOLVED\n                  (Session info: chrome=98.0.4758.82)",
+    "statusTrace" : "Backtrace:\n                \tOrdinal0 [0x00F7FDC3+2555331]\n                \tOrdinal0 [0x00F177F1+2127857]\n                \tOrdinal0 [0x00E12E08+1060360]\n                \tOrdinal0 [0x00E0F9B1+1046961]\n                \tOrdinal0 [0x00E059BD+1006013]\n                \tOrdinal0 [0x00E065D0+1009104]\n                \tOrdinal0 [0x00E05C1E+1006622]\n                \tOrdinal0 [0x00E0527D+1004157]\n                \tOrdinal0 [0x00E043FA+1000442]\n                \tOrdinal0 [0x00E046B6+1001142]\n                \tOrdinal0 [0x00E143FA+1065978]\n                \tOrdinal0 [0x00E67BAD+1407917]\n                \tOrdinal0 [0x00E57B0C+1342220]\n                \tOrdinal0 [0x00E675FA+1406458]\n                \tOrdinal0 [0x00E57976+1341814]\n                \tOrdinal0 [0x00E336B6+1193654]\n                \tOrdinal0 [0x00E34546+1197382]\n                \tGetHandleVerifier [0x01119622+1619522]\n                \tGetHandleVerifier [0x011C882C+2336844]\n                \tGetHandleVerifier [0x010123E1+541697]\n                \tGetHandleVerifier [0x01011443+537699]\n                \tOrdinal0 [0x00F1D18E+2150798]\n                \tOrdinal0 [0x00F21518+2168088]\n                \tOrdinal0 [0x00F21660+2168416]\n                \tOrdinal0 [0x00F2B330+2208560]\n                \tBaseThreadInitThunk [0x756F6739+25]\n                \tRtlGetFullPathName_UEx [0x77948AFF+1215]\n                \tRtlGetFullPathName_UEx [0x77948ACD+1165]\n                    at Browser.runCommandWithHooks (C:\\Users\\prani\\Projects\\webdriverioproject\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n                    at Browser.wrapCommandFn (C:\\Users\\prani\\Projects\\webdriverioproject\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n                    at Browser.<anonymous> (C:\\Users\\prani\\Projects\\webdriverioproject\\node_modules\\@wdio\\runner\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n                    at Context.<anonymous> (C:\\Users\\prani\\Projects\\webdriverioproject\\test\\specs\\poTest.js:21:13)\n                    at Context.executeSync (C:\\Users\\prani\\Projects\\webdriverioproject\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n                    at C:\\Users\\prani\\Projects\\webdriverioproject\\node_modules\\@wdio\\sync\\build\\index.js:69:73",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b1bb2690a962c89a",
+      "name" : "Screenshot",
+      "source" : "b1bb2690a962c89a.png",
+      "type" : "image/png",
+      "size" : 17942
+    }, {
+      "uid" : "d2437bb71799697f",
+      "name" : "Screenshot",
+      "source" : "d2437bb71799697f.png",
+      "type" : "image/png",
+      "size" : 17942
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 2,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Ecommerce Application"
+  }, {
+    "name" : "testClass",
+    "value" : "Ecommerce Application"
+  }, {
+    "name" : "testMethod",
+    "value" : "End to End Test"
+  }, {
+    "name" : "package",
+    "value" : "Ecommerce Application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-98.0.4758.82"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "64f6fc391478683d.json",
+  "parameterValues" : [ "chrome-98.0.4758.82" ]
+}

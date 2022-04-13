@@ -1,0 +1,86 @@
+{
+  "uid" : "3a336e81c9096220",
+  "name" : "End to End Test",
+  "fullName" : "Ecommerce Application.End to End Test",
+  "historyId" : "82eadf254be95fa94c2450607f6d8824",
+  "time" : {
+    "start" : 1644654516090,
+    "stop" : 1644654538940,
+    "duration" : 22850
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"*=Checkout\") still not existing after 10000ms",
+  "statusTrace" : "Error: element (\"*=Checkout\") still not existing after 10000ms\n                    at C:\\Users\\prani\\Projects\\webdriverioproject\\node_modules\\@wdio\\runner\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\prani\\Projects\\webdriverioproject\\node_modules\\@wdio\\runner\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.runCommandWithHooks (C:\\Users\\prani\\Projects\\webdriverioproject\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n                    at Element.runCommandWithHooks (C:\\Users\\prani\\Projects\\webdriverioproject\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n                    at Element.wrapCommandFn (C:\\Users\\prani\\Projects\\webdriverioproject\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n                    at Element.<anonymous> (C:\\Users\\prani\\Projects\\webdriverioproject\\node_modules\\@wdio\\runner\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n                    at Element.elementErrorHandlerCallback (C:\\Users\\prani\\Projects\\webdriverioproject\\node_modules\\@wdio\\runner\\node_modules\\webdriverio\\build\\middlewares.js:48:12)\n                    at Element.waitForExist (C:\\Users\\prani\\Projects\\webdriverioproject\\node_modules\\@wdio\\runner\\node_modules\\webdriverio\\build\\commands\\element\\waitForExist.js:47:17)\n                    at Element.wrapCommandFn (C:\\Users\\prani\\Projects\\webdriverioproject\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:60:23)\n                    at Element.elementErrorHandlerCallbackFn (C:\\Users\\prani\\Projects\\webdriverioproject\\node_modules\\@wdio\\runner\\node_modules\\webdriverio\\build\\middlewares.js:24:65)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n                    at Context.<anonymous> (C:\\Users\\prani\\Projects\\webdriverioproject\\test\\specs\\poTest.js:26:29)\n                    at Context.executeSync (C:\\Users\\prani\\Projects\\webdriverioproject\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n                    at C:\\Users\\prani\\Projects\\webdriverioproject\\node_modules\\@wdio\\sync\\build\\index.js:69:68",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"*=Checkout\") still not existing after 10000ms",
+    "statusTrace" : "Error: element (\"*=Checkout\") still not existing after 10000ms\n                    at C:\\Users\\prani\\Projects\\webdriverioproject\\node_modules\\@wdio\\runner\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\prani\\Projects\\webdriverioproject\\node_modules\\@wdio\\runner\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.runCommandWithHooks (C:\\Users\\prani\\Projects\\webdriverioproject\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n                    at Element.runCommandWithHooks (C:\\Users\\prani\\Projects\\webdriverioproject\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n                    at Element.wrapCommandFn (C:\\Users\\prani\\Projects\\webdriverioproject\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n                    at Element.<anonymous> (C:\\Users\\prani\\Projects\\webdriverioproject\\node_modules\\@wdio\\runner\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n                    at Element.elementErrorHandlerCallback (C:\\Users\\prani\\Projects\\webdriverioproject\\node_modules\\@wdio\\runner\\node_modules\\webdriverio\\build\\middlewares.js:48:12)\n                    at Element.waitForExist (C:\\Users\\prani\\Projects\\webdriverioproject\\node_modules\\@wdio\\runner\\node_modules\\webdriverio\\build\\commands\\element\\waitForExist.js:47:17)\n                    at Element.wrapCommandFn (C:\\Users\\prani\\Projects\\webdriverioproject\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:60:23)\n                    at Element.elementErrorHandlerCallbackFn (C:\\Users\\prani\\Projects\\webdriverioproject\\node_modules\\@wdio\\runner\\node_modules\\webdriverio\\build\\middlewares.js:24:65)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n                    at Context.<anonymous> (C:\\Users\\prani\\Projects\\webdriverioproject\\test\\specs\\poTest.js:26:29)\n                    at Context.executeSync (C:\\Users\\prani\\Projects\\webdriverioproject\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n                    at C:\\Users\\prani\\Projects\\webdriverioproject\\node_modules\\@wdio\\sync\\build\\index.js:69:68",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e06db06cdb111fba",
+      "name" : "Screenshot",
+      "source" : "e06db06cdb111fba.png",
+      "type" : "image/png",
+      "size" : 561949
+    }, {
+      "uid" : "9bddc759fd5494aa",
+      "name" : "Screenshot",
+      "source" : "9bddc759fd5494aa.png",
+      "type" : "image/png",
+      "size" : 58057
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 2,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Ecommerce Application"
+  }, {
+    "name" : "testClass",
+    "value" : "Ecommerce Application"
+  }, {
+    "name" : "testMethod",
+    "value" : "End to End Test"
+  }, {
+    "name" : "package",
+    "value" : "Ecommerce Application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-98.0.4758.82"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3a336e81c9096220.json",
+  "parameterValues" : [ "chrome-98.0.4758.82" ]
+}

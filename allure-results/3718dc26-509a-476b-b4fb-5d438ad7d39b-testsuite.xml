@@ -1,0 +1,42 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1644658871550' stop='1644658891076'>
+    <name>Ecommerce Application</name>
+    <title>Ecommerce Application</title>
+    <test-cases>
+        <test-case start='1644658871550' status='broken' stop='1644658891076'>
+            <name>End to End Test</name>
+            <title>End to End Test</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.82'/>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.82'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='9be5d133-f030-49f0-be7f-9b4169b97c14-attachment.png' type='image/png' size='41885'/>
+                <attachment title='Screenshot' source='409bdcab-ae38-4bf2-b9b8-22a41ff3aa2d-attachment.png' type='image/png' size='41885'/>
+            </attachments>
+            <failure>
+                <message>element (".lds-ellipsis") still existing after 5000ms</message>
+                <stack-trace>Error: element (".lds-ellipsis") still existing after 5000ms
+                    at C:\Users\prani\Projects\webdriverioproject\node_modules\@wdio\runner\node_modules\webdriverio\build\commands\browser\waitUntil.js:66:23
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\prani\Projects\webdriverioproject\node_modules\@wdio\runner\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at async Element.runCommandWithHooks (C:\Users\prani\Projects\webdriverioproject\node_modules\@wdio\sync\build\wrapCommand.js:105:25)
+                    at Element.runCommandWithHooks (C:\Users\prani\Projects\webdriverioproject\node_modules\@wdio\sync\build\wrapCommand.js:100:24)
+                    at Element.wrapCommandFn (C:\Users\prani\Projects\webdriverioproject\node_modules\@wdio\sync\build\wrapCommand.js:67:44)
+                    at Element.&lt;anonymous> (C:\Users\prani\Projects\webdriverioproject\node_modules\@wdio\runner\node_modules\@wdio\utils\build\shim.js:276:24)
+                    at Element.elementErrorHandlerCallback (C:\Users\prani\Projects\webdriverioproject\node_modules\@wdio\runner\node_modules\webdriverio\build\middlewares.js:48:12)
+                    at Context.&lt;anonymous> (C:\Users\prani\Projects\webdriverioproject\test\specs\poTest.js:36:28)
+                    at Context.executeSync (C:\Users\prani\Projects\webdriverioproject\node_modules\@wdio\sync\build\index.js:38:22)
+                    at C:\Users\prani\Projects\webdriverioproject\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

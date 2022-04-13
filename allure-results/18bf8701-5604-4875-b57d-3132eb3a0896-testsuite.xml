@@ -1,0 +1,67 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1644690890652' stop='1644690892012'>
+    <name>Ecommerce Application</name>
+    <title>Ecommerce Application</title>
+    <test-cases>
+        <test-case start='1644690890653' status='broken' stop='1644690892010'>
+            <name>End to End Test</name>
+            <title>End to End Test</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.82'/>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.82'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='1255eab9-bc3c-4aab-8019-562128344490-attachment.png' type='image/png' size='17942'/>
+                <attachment title='Screenshot' source='04a30b2b-73b2-408a-af55-92aa66cac3d3-attachment.png' type='image/png' size='17942'/>
+            </attachments>
+            <failure>
+                <message>unknown error: net::ERR_NAME_NOT_RESOLVED
+                  (Session info: chrome=98.0.4758.82)</message>
+                <stack-trace>Backtrace:
+                	Ordinal0 [0x00A6FDC3+2555331]
+                	Ordinal0 [0x00A077F1+2127857]
+                	Ordinal0 [0x00902E08+1060360]
+                	Ordinal0 [0x008FF9B1+1046961]
+                	Ordinal0 [0x008F59BD+1006013]
+                	Ordinal0 [0x008F65D0+1009104]
+                	Ordinal0 [0x008F5C1E+1006622]
+                	Ordinal0 [0x008F527D+1004157]
+                	Ordinal0 [0x008F43FA+1000442]
+                	Ordinal0 [0x008F46B6+1001142]
+                	Ordinal0 [0x009043FA+1065978]
+                	Ordinal0 [0x00957BAD+1407917]
+                	Ordinal0 [0x00947B0C+1342220]
+                	Ordinal0 [0x009575FA+1406458]
+                	Ordinal0 [0x00947976+1341814]
+                	Ordinal0 [0x009236B6+1193654]
+                	Ordinal0 [0x00924546+1197382]
+                	GetHandleVerifier [0x00C09622+1619522]
+                	GetHandleVerifier [0x00CB882C+2336844]
+                	GetHandleVerifier [0x00B023E1+541697]
+                	GetHandleVerifier [0x00B01443+537699]
+                	Ordinal0 [0x00A0D18E+2150798]
+                	Ordinal0 [0x00A11518+2168088]
+                	Ordinal0 [0x00A11660+2168416]
+                	Ordinal0 [0x00A1B330+2208560]
+                	BaseThreadInitThunk [0x756F6739+25]
+                	RtlGetFullPathName_UEx [0x77948AFF+1215]
+                	RtlGetFullPathName_UEx [0x77948ACD+1165]
+                    at Browser.runCommandWithHooks (C:\Users\prani\Projects\webdriverioproject\node_modules\@wdio\sync\build\wrapCommand.js:100:24)
+                    at Browser.wrapCommandFn (C:\Users\prani\Projects\webdriverioproject\node_modules\@wdio\sync\build\wrapCommand.js:67:44)
+                    at Browser.&lt;anonymous> (C:\Users\prani\Projects\webdriverioproject\node_modules\@wdio\runner\node_modules\@wdio\utils\build\shim.js:276:24)
+                    at Context.&lt;anonymous> (C:\Users\prani\Projects\webdriverioproject\test\specs\poTest.js:21:13)
+                    at Context.executeSync (C:\Users\prani\Projects\webdriverioproject\node_modules\@wdio\sync\build\index.js:38:22)
+                    at C:\Users\prani\Projects\webdriverioproject\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

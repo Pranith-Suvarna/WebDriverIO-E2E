@@ -1,0 +1,21 @@
+[ {
+  "uid" : "d79f894d7d788709",
+  "name" : "End to End Test",
+  "time" : {
+    "start" : 1644701726917,
+    "stop" : 1644701727869,
+    "duration" : 952
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "96b0f60ed8ad73cc",
+  "name" : "End to End Test",
+  "time" : {
+    "start" : 1648566648133,
+    "stop" : 1648566668341,
+    "duration" : 20208
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

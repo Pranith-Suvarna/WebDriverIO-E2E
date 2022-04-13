@@ -1,0 +1,176 @@
+{
+  "82eadf254be95fa94c2450607f6d8824" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 8,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 15
+    },
+    "items" : [ {
+      "uid" : "d79f894d7d788709",
+      "reportUrl" : "http://localhost:9090/job/Webdriver%20IO/21/allure/#testresult/d79f894d7d788709",
+      "status" : "broken",
+      "statusDetails" : "unknown error: net::ERR_NAME_NOT_RESOLVED\n                  (Session info: chrome=98.0.4758.82)",
+      "time" : {
+        "start" : 1644701726917,
+        "stop" : 1644701727869,
+        "duration" : 952
+      }
+    }, {
+      "uid" : "ac27fd8a4d3aa0a3",
+      "reportUrl" : "http://localhost:9090/job/Webdriver%20IO/20/allure/#testresult/ac27fd8a4d3aa0a3",
+      "status" : "broken",
+      "statusDetails" : "unknown error: net::ERR_NAME_NOT_RESOLVED\n                  (Session info: chrome=98.0.4758.82)",
+      "time" : {
+        "start" : 1644701726917,
+        "stop" : 1644701727869,
+        "duration" : 952
+      }
+    }, {
+      "uid" : "bdaba472cfd87a5c",
+      "reportUrl" : "http://localhost:9090/job/Webdriver%20IO/19/allure/#testresult/bdaba472cfd87a5c",
+      "status" : "broken",
+      "statusDetails" : "unknown error: net::ERR_NAME_NOT_RESOLVED\n                  (Session info: chrome=98.0.4758.82)",
+      "time" : {
+        "start" : 1644701726917,
+        "stop" : 1644701727869,
+        "duration" : 952
+      }
+    }, {
+      "uid" : "4df39f575d5cdb49",
+      "reportUrl" : "http://localhost:9090/job/Webdriver%20IO/18/allure/#testresult/4df39f575d5cdb49",
+      "status" : "broken",
+      "statusDetails" : "unknown error: net::ERR_NAME_NOT_RESOLVED\n                  (Session info: chrome=98.0.4758.82)",
+      "time" : {
+        "start" : 1644701726917,
+        "stop" : 1644701727869,
+        "duration" : 952
+      }
+    }, {
+      "uid" : "5bcce23e82f7957d",
+      "reportUrl" : "http://localhost:9090/job/Webdriver%20IO/17/allure/#testresult/5bcce23e82f7957d",
+      "status" : "broken",
+      "statusDetails" : "unknown error: net::ERR_NAME_NOT_RESOLVED\n                  (Session info: chrome=98.0.4758.82)",
+      "time" : {
+        "start" : 1644701726917,
+        "stop" : 1644701727869,
+        "duration" : 952
+      }
+    }, {
+      "uid" : "b6de4f411151de4",
+      "reportUrl" : "http://localhost:9090/job/Webdriver%20IO/16/allure/#testresult/b6de4f411151de4",
+      "status" : "broken",
+      "statusDetails" : "unknown error: net::ERR_NAME_NOT_RESOLVED\n                  (Session info: chrome=98.0.4758.82)",
+      "time" : {
+        "start" : 1644701726917,
+        "stop" : 1644701727869,
+        "duration" : 952
+      }
+    }, {
+      "uid" : "5a69cea3d4285fe2",
+      "reportUrl" : "http://localhost:9090/job/Webdriver%20IO/15/allure/#testresult/5a69cea3d4285fe2",
+      "status" : "broken",
+      "statusDetails" : "unknown error: net::ERR_NAME_NOT_RESOLVED\n                  (Session info: chrome=98.0.4758.82)",
+      "time" : {
+        "start" : 1644701726917,
+        "stop" : 1644701727869,
+        "duration" : 952
+      }
+    }, {
+      "uid" : "576414febafba37d",
+      "reportUrl" : "http://localhost:8080/job/Webdriver%20IO/14/allure/#testresult/576414febafba37d",
+      "status" : "broken",
+      "statusDetails" : "unknown error: net::ERR_NAME_NOT_RESOLVED\n                  (Session info: chrome=98.0.4758.82)",
+      "time" : {
+        "start" : 1644701635826,
+        "stop" : 1644701636791,
+        "duration" : 965
+      }
+    }, {
+      "uid" : "cbfcc248637e3a7e",
+      "reportUrl" : "http://localhost:8080/job/Webdriver%20IO/13/allure/#testresult/cbfcc248637e3a7e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644694579040,
+        "stop" : 1644694597738,
+        "duration" : 18698
+      }
+    }, {
+      "uid" : "7a254c6c7b3206b2",
+      "reportUrl" : "http://localhost:8080/job/Webdriver%20IO/12/allure/#testresult/7a254c6c7b3206b2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644694579040,
+        "stop" : 1644694597738,
+        "duration" : 18698
+      }
+    }, {
+      "uid" : "b75073fbe1cb4014",
+      "reportUrl" : "http://localhost:8080/job/Webdriver%20IO/11/allure/#testresult/b75073fbe1cb4014",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644694579040,
+        "stop" : 1644694597738,
+        "duration" : 18698
+      }
+    }, {
+      "uid" : "f4a49ac70ff5bcc1",
+      "reportUrl" : "http://localhost:8080/job/Webdriver%20IO/10/allure/#testresult/f4a49ac70ff5bcc1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644694579040,
+        "stop" : 1644694597738,
+        "duration" : 18698
+      }
+    }, {
+      "uid" : "d695066bb19f1e77",
+      "reportUrl" : "http://localhost:8080/job/Webdriver%20IO/9/allure/#testresult/d695066bb19f1e77",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644694579040,
+        "stop" : 1644694597738,
+        "duration" : 18698
+      }
+    }, {
+      "uid" : "a0dcee7fa3c92aa5",
+      "reportUrl" : "http://localhost:8080/job/Webdriver%20IO/8/allure/#testresult/a0dcee7fa3c92aa5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644694579040,
+        "stop" : 1644694597738,
+        "duration" : 18698
+      }
+    }, {
+      "uid" : "2ed0778c3d0f53f8",
+      "reportUrl" : "http://localhost:8080/job/Webdriver%20IO/7/allure/#testresult/2ed0778c3d0f53f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644693879728,
+        "stop" : 1644693898465,
+        "duration" : 18737
+      }
+    } ]
+  },
+  "6e8eb43c50d48aca8942577c36579d03" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "96b0f60ed8ad73cc",
+      "reportUrl" : "http://localhost:9090/job/Webdriver%20IO/21/allure/#testresult/96b0f60ed8ad73cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648566648133,
+        "stop" : 1648566668341,
+        "duration" : 20208
+      }
+    } ]
+  }
+}

@@ -1,0 +1,28 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1644693428203' stop='1644693447365'>
+    <name>Ecommerce Application</name>
+    <title>Ecommerce Application</title>
+    <test-cases>
+        <test-case start='1644693428203' status='passed' stop='1644693447364'>
+            <name>End to End Test</name>
+            <title>End to End Test</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.82'/>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.82'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='ec4f3c0e-7bb3-438c-be13-863cf9646d37-attachment.png' type='image/png' size='25968'/>
+                <attachment title='Screenshot' source='829014e7-655a-4145-b095-77b136d22e23-attachment.png' type='image/png' size='25968'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

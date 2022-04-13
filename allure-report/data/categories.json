@@ -1,0 +1,30 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "unknown error: net::ERR_NAME_NOT_RESOLVED\n                  (Session info: chrome=98.0.4758.82)",
+      "children" : [ {
+        "name" : "End to End Test",
+        "uid" : "d79f894d7d788709",
+        "parentUid" : "1ee78fcbdd198c4c9317f8a0bfa0c137",
+        "status" : "broken",
+        "time" : {
+          "start" : 1644701726917,
+          "stop" : 1644701727869,
+          "duration" : 952
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 14,
+        "retriesStatusChange" : true,
+        "parameters" : [ "chrome-98.0.4758.82" ]
+      } ],
+      "uid" : "1ee78fcbdd198c4c9317f8a0bfa0c137"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

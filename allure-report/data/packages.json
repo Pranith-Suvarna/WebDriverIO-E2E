@@ -1,0 +1,43 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Ecommerce Application",
+    "children" : [ {
+      "name" : "End to End Test",
+      "uid" : "d79f894d7d788709",
+      "parentUid" : "de7d85c3420e03600cbe94734e47c867",
+      "status" : "broken",
+      "time" : {
+        "start" : 1644701726917,
+        "stop" : 1644701727869,
+        "duration" : 952
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 14,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-98.0.4758.82" ]
+    }, {
+      "name" : "End to End Test",
+      "uid" : "96b0f60ed8ad73cc",
+      "parentUid" : "de7d85c3420e03600cbe94734e47c867",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648566648133,
+        "stop" : 1648566668341,
+        "duration" : 20208
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.84" ]
+    } ],
+    "uid" : "de7d85c3420e03600cbe94734e47c867"
+  } ]
+}
